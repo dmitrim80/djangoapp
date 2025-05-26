@@ -1,0 +1,37 @@
+check python version:
+python3 --version
+---
+check django version
+python3 -m django --version
+---
+to install virtual environtment
+virtualenv venv_name
+---
+to activate 
+source venv/bin/activate
+
+to deactivate
+deactivate
+
+---
+to install django
+pip install django
+
+---
+django commands
+django-admin
+
+---
+start project
+django-admin startproject project_name
+---
+to start server
+python3 manage.py runserver
+
+to start app
+python3 manage.py startapp app_name
+(for example base)
+
+(next step, connect app to main project with settings.py file. Under INSTALLED_APPS list)
+---
+shortcut for terminal (ctrl + `)
